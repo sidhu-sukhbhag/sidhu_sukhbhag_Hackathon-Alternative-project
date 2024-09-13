@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+}
+
+.logo{
+    float: left;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-icons {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icons li a img {
+    height: 30px;
+    width: 30px;
+}
